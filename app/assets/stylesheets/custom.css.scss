@@ -37,5 +37,32 @@ body{
 
 .btn-space{
   margin-top: 20px;
-  
+ }
+
+.alert-error{
+  background-color:#336699;
+  border-color: #eed3d7;
+  color: #b94a48;
+  text-align: left;
+}
+
+.alert-alert{
+  background-color:#f2fede;
+  border-color: #ebccd1;
+  color: #a94442;
+  text-align: left;
+}
+
+.alert-success{
+  background-color:#ddff08;
+  border-color: #d6e9c6;
+  color: #b46847;
+  text-align: left;
+}
+
+.alert-notice{
+  background-color:#bff0d8;
+  border-color: #d6e9c6;
+  color: #468477;
+  text-align: left;
 }
