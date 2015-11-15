@@ -1,6 +1,7 @@
 <h1>Listing all Article</h1>
-
+<% if user_signed_in? %>
 <%= link_to 'New Article', new_article_path, class: "btn btn-defalt btn-lrg", id: "new-article-btn" %>
+<% end %>
 
 <% @articles.each do |article| %>
   <div class="well well-lrg">
